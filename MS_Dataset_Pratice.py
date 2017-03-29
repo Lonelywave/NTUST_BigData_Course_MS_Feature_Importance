@@ -34,3 +34,5 @@ plt.bar(range(X.shape[1]), importances[indices], color="r", yerr=std[indices], a
 plt.xticks(range(X.shape[1]), indices)
 plt.xlim([-1, X.shape[1]])
 plt.show()
+
+## Ref: http://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
